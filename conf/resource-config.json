@@ -1,17 +1,10 @@
 {
-  "resources": [
-    {
-      "pattern": "\\QMETA-INF/dgminfo\\E"
-    },
-    {
-      "pattern": "\\QMETA-INF/groovy/org.codehaus.groovy.runtime.ExtensionModule\\E"
-    },
-    {
-      "pattern": "\\QMETA-INF/services/java.nio.file.spi.FileSystemProvider\\E"
-    },
-    {
-      "pattern": "\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
-    }
-  ],
-  "bundles": []
+  "resources":{
+  "includes":[
+    {"pattern":"\\QMETA-INF/dgminfo\\E"}, 
+    {"pattern":"\\QMETA-INF/groovy/org.codehaus.groovy.runtime.ExtensionModule\\E"}, 
+    {"pattern":"\\QMETA-INF/services/java.nio.file.spi.FileSystemProvider\\E"}, 
+    {"pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"}
+  ]},
+  "bundles":[{"name":"org.eclipse.jgit.internal.JGitText"}]
 }
